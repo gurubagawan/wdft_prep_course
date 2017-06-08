@@ -28,16 +28,22 @@ div
 /***************************/
 
 /* FIRST ROW : FLOATS; */
-.a1 {
+
+.d1 {
+	float:left;
 }
 
 .b1 {
+	float:left;
 }
+
+.a1 {
+	float:right;
+}
+
 
 .c1 {
-}
-
-.d1 {
+	float:right;
 }
 
 /* SECOND ROW : DISPLAY */
@@ -46,12 +52,15 @@ div
 }
 
 .b2 {
+	display:none;
 }
 
 .c2 {
+	display:inline;
 }
 
 .d2 {
+	display:block
 }
 
 /* THIRD ROW : POSITION */
@@ -60,10 +69,19 @@ div
 }
 
 .b3 {
+	position: absolute;
+	left: 150px; 
+	top: 400px;
 }
 
 .c3 {
+	position: absolute;
+	right:0px;	
+	top: 500px;
 }
 
 .d3 {
+	position: absolute;
+	left: 950px; 
+	top: 300px;
 }
