@@ -25,20 +25,17 @@ The outputted value should be 9.
 console.log(numbers[3+6]); 
 
 
-
 /*
 Exercise #4
 Use the console.log() function and the array .pop() to add all the values in the array.
 */
 
-var sum = 0;
 
-while(numbers.length != 0){
+while(numbers.length!= 0){
     //write pop function here
-    var lastElement = numbers.pop
+    var y=numbers.pop();
+    console.log(y)    
 }
-console.log(sum);
-
 
 /*
 Exercise #5
